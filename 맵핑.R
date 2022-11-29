@@ -12,3 +12,6 @@ head(location)
 ggmap(map)
 geom_point(data=location, aes(x=long, y=lat))
 ggmap(map)+geom_point(data=location, aes(x=long, y=lat))
+
+
+#나중에 전체 엑셀 파일에서 특정 칼럼만 어떻게 뽑아오는지 알아보기
